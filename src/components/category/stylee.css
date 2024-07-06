@@ -1,0 +1,45 @@
+.container{
+    background-image: none;
+    width: 1540px;
+    margin: 0 auto;
+}
+.img1{
+    width: 92px;
+    height: 78px;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 200px;
+}
+.all{
+    margin: 0 auto;
+}
+p{
+    font-size: 18px;
+    color: #5E6282;
+}
+h1{
+    font-size: 50px;
+}
+.h1{
+    font-size: 29px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 257px;
+    height: 314px;
+    border-radius: 36px;
+}
+.card:hover{
+    border-radius: 36px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;}
+.title{
+    margin: 0 auto;
+}
+.all{
+    margin: 0 auto;
+}

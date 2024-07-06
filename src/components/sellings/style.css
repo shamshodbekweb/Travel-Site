@@ -1,0 +1,24 @@
+.container{
+    background-image: none;
+    font-family: sans-serif;
+    width: 1114px;
+    margin: 0 auto;
+}
+.allSellings{
+    gap: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h1{
+        width: 511px;
+    }
+}
+.groups{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text{
+    margin-bottom: 100px;
+}
+

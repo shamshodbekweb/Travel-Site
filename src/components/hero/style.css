@@ -1,0 +1,110 @@
+.container {
+    background-image: url(../../assets/Decore.png);
+    background-repeat: no-repeat;
+    background-size: contain;   
+    background-size: cover;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1380px) {
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+  }
+
+.p1 {
+    font-size: 20px;
+    color: #DF6951;
+}
+
+.img_girl {
+    filter: grayscale(0%);
+}
+@media (max-width: 1480px) {
+    .img_girl   {
+       width: 540px;
+       height: 540px; 
+    }
+  }
+
+.h11 {
+    font-size: 74px;
+    max-width: 524px;
+}
+@media (max-width: 1480px) {
+    .h11{
+        font-size: 60px;
+    }
+  }
+
+/* .info {
+    margin-bottom: 90px;
+    margin-right: 20px;
+} */
+
+.Hero {
+    /* background-image: url(../../assets/Decore.png);
+    background-repeat: no-repeat;
+    background-size: contain;    */
+    background-position: top right;
+    font-family: sans-serif;
+}
+
+.p2 {
+    margin: 0 auto;
+    max-width: 280px;
+    font-size: 20px;
+}
+@media (max-width: 1480px) {
+    .p2{
+       font-size: 16px; 
+    }
+  }
+
+.btn {
+    margin-bottom: 20px;
+    font-size: large;
+    max-width: 170px;
+    height: 60px;
+    border-radius: 10px;
+    color: white;
+    background-color: #F1A501;
+    border: none;
+}
+@media (max-width: 1480px) {
+    .btn{
+       width: 140px; 
+       height: 47px;
+       font-size: 15px;
+       font-weight: 400;
+    }
+  }
+.btn2 {
+   font-size: large;
+}
+@media (max-width: 1480px) {
+    .btn2{
+       width: 160px; 
+       height: 107px;
+       font-size: 15px;
+       font-weight: 400;
+    }
+  }
+
+.btn:active {
+    box-shadow: 2px 2px 2px #f3d490;
+}
+
+
+
+
+
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

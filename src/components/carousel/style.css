@@ -1,0 +1,23 @@
+.container{
+    width: 1440px;
+    margin: 0 auto;
+    background-image: none;
+    background-repeat: no-repeat;
+}
+.Slide{
+    margin: 0 auto;
+}
+.title{
+    width: 409px;
+    box-shadow: none;
+    margin-bottom: 200px;
+    margin-right: 700px;
+}
+.carousel{
+    margin: 0 auto;
+    display: fixed;
+    margin-right: 100px;
+    background-image: url(../../assets//Group\ 64.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
